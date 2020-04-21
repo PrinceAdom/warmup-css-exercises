@@ -1,0 +1,29 @@
+div.container {
+    width: 250px; /* (100*2) + (10*3)) = 230px*/
+    
+}
+
+div.interior {
+    background-color: blue;
+    
+}
+
+div.interior.div1, div.interior.div2, div.interior.div3, div.interior.div4 {
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    z-index: 1;
+    
+    
+}
+
+div.interior.div5 {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    margin: 70px;
+    z-index: 2;
+    position: absolute;
+    transform: rotate(45deg);
+}
